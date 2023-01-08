@@ -1,0 +1,512 @@
+body {
+  background: url(Background.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+background-repeat: repeat;
+}
+.hd3:first-child {
+  color: white;
+  font-size: 22px;
+}
+#sidebar {
+  float: left;
+  color: #ffffff;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #43bee5;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #efa500;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.card{
+  height:450px;
+  width:410px;
+background-position:cover;
+background-image: url(gandhiji.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.card:hover{
+ transform: translateY(20px);
+}
+.card::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.card:hover::before{
+opacity: 1;
+}
+.card .info{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.card:hover .info{
+opacity: 1;
+transform: translateY(0px);
+}
+.carda{
+  float: right;
+  height:450px;
+  width:410px;
+  background-image:url(SubhasChandraBoseNRB.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+font-size: 2px;
+}
+.carda:hover{
+  transform: translateY(20px);
+ }
+ .carda::before{
+  content: "";
+ position: absolute;
+ top:0;
+ left:0;
+ display: block;
+ height: 100%;
+ width:100%;
+ background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+ z-index: 2;
+ transition: 0.5s all;
+ opacity: 0;
+ }
+ .carda:hover::before{
+ opacity: 1;
+ }
+ .carda .infoa{
+   position: relative;
+   z-index: 3;
+   color: rgba(67, 190, 229, 1);
+   opacity: 0;
+   transform: translateY(30px);
+   transition: 0.5s all;
+   font-size: 20px;
+ }
+ .carda:hover .infoa{
+ opacity: 1;
+ transform: translateY(0px);
+ }
+ .cardc{
+float: left;
+  height:450px;
+  width:410px;
+  background-image:url(mangalpandey.png);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+font-size: 10px;
+}
+.cardc:hover{
+  transform: translateY(20px);
+ }
+ .cardc::before{
+  content: "";
+ position: absolute;
+ top:0;
+ left:0;
+ display: block;
+ height: 100%;
+ width:100%;
+ background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+ z-index: 2;
+ transition: 0.5s all;
+ opacity: 0;
+ }
+ .cardc:hover::before{
+ opacity: 1;
+ }
+ .cardc .infoc{
+   position: relative;
+   z-index: 3;
+   color: rgba(67, 190, 229, 1);
+   opacity: 0;
+   transform: translateY(30px);
+   transition: 0.5s all;
+   font-size: 20px;
+ }
+ .cardc:hover .infoc{
+ opacity: 1;
+ transform: translateY(0px);
+ }
+.cardb{
+float: right;
+  height:450px;
+  width:410px;
+  background-image:url(BhagatSingh.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.cardb:hover{
+  transform: translateY(20px);
+ }
+ .cardb::before{
+  content: "";
+ position: absolute;
+ top:0;
+ left:0;
+ display: block;
+ height: 100%;
+ width:100%;
+ background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+ z-index: 2;
+ transition: 0.5s all;
+ opacity: 0;
+ }
+ .cardb:hover::before{
+ opacity: 1;
+ }
+ .cardb .infob{
+   position: relative;
+   z-index: 3;
+   color: rgba(67, 190, 229, 1);
+   opacity: 0;
+   transform: translateY(30px);
+   transition: 0.5s all;
+   font-size: 20px;
+ }
+ .cardb:hover .infob{
+ opacity: 1;
+ transform: translateY(0px);
+ }
+.cardd{
+  height:450px;
+  width:410px;
+  background-image:url(ranilaxmi.jpg.webp);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.cardd:hover{
+ transform: translateY(20px);
+}
+.cardd::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.cardd:hover::before{
+opacity: 1;
+}
+.cardd .infod{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.cardd:hover .infod{
+opacity: 1;
+transform: translateY(0px);
+}
+.carde{
+  height:450px;
+  width:410px;
+  background-image:url(Jnehru.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.carde:hover{
+ transform: translateY(20px);
+}
+.carde::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.carde:hover::before{
+opacity: 1;
+}
+.carde .infoe{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.carde:hover .infoe{
+opacity: 1;
+transform: translateY(0px);
+}
+.cardf{
+  height:450px;
+  width:410px;
+  background-image:url(lalalajpatrai.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.cardf:hover{
+ transform: translateY(20px);
+}
+.cardf::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.cardf:hover::before{
+opacity: 1;
+}
+.cardf .infof{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.cardf:hover .infof{
+opacity: 1;
+transform: translateY(0px);
+}
+.cardg{
+  height:450px;
+  width:410px;
+  background-image:url(tilak.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.cardg:hover{
+ transform: translateY(20px);
+}
+.cardg::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.cardg:hover::before{
+opacity: 1;
+}
+.cardg .infog{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.cardg:hover .infog{
+opacity: 1;
+transform: translateY(0px);
+}
+.cardh{
+  height:450px;
+  width:410px;
+  background-image:url(phule.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.cardh:hover{
+ transform: translateY(20px);
+}
+.cardh::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.cardh:hover::before{
+opacity: 1;
+}
+.cardh .infoh{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.cardh:hover .infoh{
+opacity: 1;
+transform: translateY(0px);
+}
+.cardi{
+  height:450px;
+  width:410px;
+  background-image:url(dadabhai.jpeg);
+background-position:cover;
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+.cardi:hover{
+ transform: translateY(20px);
+}
+.cardi::before{
+ content: "";
+position: absolute;
+top:0;
+left:0;
+display: block;
+height: 100%;
+width:100%;
+background: linear-gradient(to bottom,rgba(239, 165, 0, 0.5), rgba(22, 27, 64, 2));
+z-index: 2;
+transition: 0.5s all;
+opacity: 0;
+}
+.cardi:hover::before{
+opacity: 1;
+}
+.cardi .infoi{
+  position: relative;
+  z-index: 3;
+  color: rgba(67, 190, 229, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  font-size: 20px;
+}
+.cardi:hover .infoi{
+opacity: 1;
+transform: translateY(0px);
+}
+.container1{
+text-align: center;
+color: red;
+font-size: 20px;
+position: fixed;
+top: 10%;
+left: 485px;
+}

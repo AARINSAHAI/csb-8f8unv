@@ -1,0 +1,96 @@
+body {
+  background: url(Background.jpg);
+  margin: 0;
+  padding: 0;
+background-size: 100%;
+background-repeat: repeat;
+
+}
+
+.hd1 {
+  color: #41bee5;
+  font-size: 22px;
+
+}
+
+#sidebar {
+  float: left;
+  color: #ffffff;
+}
+.contenta {
+  margin: 10px;
+  text-align: justify;
+  font-size: 17px;
+  color: white;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #43bee5;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #efa500;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+#sepoy {
+  width: 40%;
+  height: 70%;
+  border: 10px double #f40058;
+  border-radius: 20px;
+}
+.political {
+  float: left;
+  color: white;
+}
+#pol {
+  font-size: 20px;
+}
+.military{
+position: relative;
+top: 400px;
+text-align: right;
+color: white;
+}
+#mil{
+font-size: 20px;
+}
+.align{
+   width: 50%;
+   height: auto;
+   padding: 30px;
+   color: white;
+}
+table{
+width: 100%;
+margin: 0px;
+}
